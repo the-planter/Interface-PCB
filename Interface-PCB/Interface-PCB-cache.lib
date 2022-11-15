@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF AA_Custom_Components_BARREL_JACK_PAD J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
 F1 "AA_Custom_Components_BARREL_JACK_PAD" 0 -200 50 H V C CNN
-F2 "" 50 -40 50 H I C CNN
+F2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 ALIAS Jack-DC
 $FPLIST
@@ -27,10 +27,10 @@ ENDDEF
 # AA_Custom_Components_CD74HC4067_MUX
 #
 DEF AA_Custom_Components_CD74HC4067_MUX U 0 40 Y Y 1 F N
-F0 "U" -100 950 60 H V C CNN
-F1 "AA_Custom_Components_CD74HC4067_MUX" 50 -1100 60 H V C CNN
-F2 "digikey-footprints:SOIC-24_W7.50mm" 850 0 60 H I L CNN
-F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hc4067" 850 100 60 H I L CNN
+F0 "U" -150 800 60 H V C CNN
+F1 "AA_Custom_Components_CD74HC4067_MUX" 50 -900 60 H V C CNN
+F2 "digikey-footprints:Socket_DIP-24_15.24mm_Conn" 850 0 60 H I L CNN
+F3 "" 850 100 60 H I L CNN
 F4 "296-29408-1-ND" 850 200 60 H I L CNN "Digi-Key_PN"
 F5 "CD74HC4067M96" 850 300 60 H I L CNN "MPN"
 F6 "Integrated Circuits (ICs)" 850 400 60 H I L CNN "Category"
@@ -41,7 +41,7 @@ F10 "IC MUX/DEMUX 1X16 24SOIC" 1100 1100 60 H I L CNN "Description"
 F11 "Texas Instruments" 1100 1200 60 H I L CNN "Manufacturer"
 F12 "Active" 1100 1300 60 H I L CNN "Status"
 DRAW
-S -200 900 300 -1000 0 1 0 f
+S -200 750 300 -850 0 1 0 f
 X C15 1 -400 700 200 R 50 50 1 1 O
 X C6 10 -400 -200 200 R 50 50 1 1 O
 X C5 11 -400 -300 200 R 50 50 1 1 O
@@ -69,12 +69,32 @@ X C7 9 -400 -100 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# AA_Custom_Components_CONN_05JST
+#
+DEF AA_Custom_Components_CONN_05JST J 0 40 N Y 1 F N
+F0 "J" -200 500 45 H V L BNN
+F1 "AA_Custom_Components_CONN_05JST" -200 -150 45 H V L BNN
+F2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" 0 600 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *JST-5-PTH-VERT*
+$ENDFPLIST
+DRAW
+S 0 -50 -200 450 0 1 0 f
+X 1 1 100 0 100 L 40 40 1 1 P
+X 2 2 100 100 100 L 40 40 1 1 P
+X 3 3 100 200 100 L 40 40 1 1 P
+X 4 4 100 300 100 L 40 40 1 1 P
+X 5 5 100 400 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # AA_Custom_Components_I2C_HEADER
 #
 DEF AA_Custom_Components_I2C_HEADER J 0 40 N Y 1 F N
 F0 "J" -200 300 45 H V L BNN
 F1 "AA_Custom_Components_I2C_HEADER" -200 -250 45 H V L BNN
-F2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" 0 400 20 H I C CNN
+F2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" 0 400 20 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  *JST-3-PTH-VERT*
@@ -111,7 +131,7 @@ ENDDEF
 DEF AA_Custom_Components_PERISTALTIC_PUMP M 0 40 N Y 1 F N
 F0 "M" -150 300 45 H V C BNN
 F1 "AA_Custom_Components_PERISTALTIC_PUMP" 0 -250 45 H V C BNN
-F2 "" 250 450 20 H I C CNN
+F2 "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" 250 450 20 H I C CNN
 F3 "" 250 0 50 H I C CNN
 DRAW
 C 0 50 112 0 1 0 N
@@ -119,6 +139,32 @@ T 0 0 50 118 0 0 0 M Normal 0 C C
 S -200 250 200 -150 0 1 0 f
 X M2 6 300 -100 100 L 40 40 1 1 W
 X M1 7 300 200 100 L 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# AA_Custom_Components_R
+#
+DEF AA_Custom_Components_R R 0 40 N N 1 F N
+F0 "R" -50 -100 45 H V L BNN
+F1 "AA_Custom_Components_R" -50 50 45 H V L BNN
+F2 "Resistors:AXIAL-0.3-KIT" 0 150 20 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 " " 0 200 60 H V C CNN
+$FPLIST
+ *AXIAL-0.3-KIT*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 P$1 -200 0 100 R 40 40 1 1 P
+X 2 P$2 200 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -182,7 +228,7 @@ ENDDEF
 DEF AA_Custom_Components_SN74LVC245AN IC 0 30 Y Y 1 F N
 F0 "IC" 250 300 50 H V L CNN
 F1 "AA_Custom_Components_SN74LVC245AN" 250 200 50 H V L CNN
-F2 "digikey-footprints:DIP-20_W7.62mm" 850 100 50 H I L CNN
+F2 "Package_DIP:DIP-20_W7.62mm_LongPads" 850 100 50 H I L CNN
 F3 "" 850 0 50 H I L CNN
 F4 "Octal Bus Transceivers With 3-State Outputs" 850 -100 50 H I L CNN "Description"
 F5 "5.08" 850 -200 50 H I L CNN "Height"
@@ -218,7 +264,7 @@ ENDDEF
 DEF AA_Custom_Components_TB6612FNG_BREAKOUT U 0 40 N Y 1 F N
 F0 "U" -250 500 50 H V R CNN
 F1 "AA_Custom_Components_TB6612FNG_BREAKOUT" 400 -400 50 H V R CNN
-F2 "" -400 250 50 H I L CNN
+F2 "digikey-footprints:DIP-16_W7.62mm" -400 250 50 H I L CNN
 F3 "" 300 250 50 H I C CNN
 $FPLIST
  TO?220*
@@ -276,27 +322,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SparkFun-Connectors_CONN_05JST-VERT
-#
-DEF SparkFun-Connectors_CONN_05JST-VERT J 0 40 N Y 1 L N
-F0 "J" -200 500 45 H V L BNN
-F1 "SparkFun-Connectors_CONN_05JST-VERT" -200 -150 45 H V L BNN
-F2 "JST-5-PTH-VERT" 0 600 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "XXX-00000" 0 650 60 H V C CNN
-$FPLIST
- *JST-5-PTH-VERT*
-$ENDFPLIST
-DRAW
-S 0 -50 -200 450 0 1 0 f
-X 1 1 100 0 100 L 40 40 1 1 P
-X 2 2 100 100 100 L 40 40 1 1 P
-X 3 3 100 200 100 L 40 40 1 1 P
-X 4 4 100 300 100 L 40 40 1 1 P
-X 5 5 100 400 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
