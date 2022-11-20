@@ -21,7 +21,7 @@ AR Path="/6374D5AF" Ref="U?"  Part="1"
 AR Path="/6373D3AE/6374D5AF" Ref="U3"  Part="1" 
 F 0 "U3" H 4950 6187 60  0000 C CNN
 F 1 "CD74HC4067_MUX" H 4950 6081 60  0000 C CNN
-F 2 "digikey-footprints:SOIC-24_W7.50mm" H 5750 5100 60  0001 L CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_LongPads" H 5750 5100 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hc4067" H 5750 5200 60  0001 L CNN
 F 4 "296-29408-1-ND" H 5750 5300 60  0001 L CNN "Digi-Key_PN"
 F 5 "CD74HC4067M96" H 5750 5400 60  0001 L CNN "MPN"
