@@ -28,23 +28,23 @@ F 3 "" H 10250 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 5550 9650 5550
-Text GLabel 8500 5600 0    50   Output ~ 0
-OUTLET_3_OFF
-Text GLabel 8500 5500 0    50   Output ~ 0
-OUTLET_2_OFF
-Text GLabel 8500 5700 0    50   Output ~ 0
-OUTLET_4_OFF
-Text GLabel 8500 5400 0    50   Output ~ 0
-OUTLET_1_OFF
-Text GLabel 8500 4900 0    50   Output ~ 0
-OUTLET_1_ON
-Text GLabel 8500 5000 0    50   Output ~ 0
-OUTLET_2_ON
 Text GLabel 8500 5100 0    50   Output ~ 0
-OUTLET_3_ON
+OUTLET_3_OFF
 Text GLabel 8500 5200 0    50   Output ~ 0
-OUTLET_4_ON
+OUTLET_2_OFF
+Text GLabel 8500 5000 0    50   Output ~ 0
+OUTLET_4_OFF
 Text GLabel 8500 5300 0    50   Output ~ 0
+OUTLET_1_OFF
+Text GLabel 8500 5800 0    50   Output ~ 0
+OUTLET_1_ON
+Text GLabel 8500 5700 0    50   Output ~ 0
+OUTLET_2_ON
+Text GLabel 8500 5600 0    50   Output ~ 0
+OUTLET_3_ON
+Text GLabel 8500 5500 0    50   Output ~ 0
+OUTLET_4_ON
+Text GLabel 8500 5400 0    50   Output ~ 0
 OUTLET_5_ON
 Text Notes 2900 4600 0    50   ~ 10
 RADIO TRANSMITTER CONTROL
@@ -267,7 +267,7 @@ NoConn ~ 5200 5550
 NoConn ~ 5200 6850
 NoConn ~ 5200 6950
 NoConn ~ 5200 7050
-Text GLabel 8500 5800 0    50   Output ~ 0
+Text GLabel 8500 4900 0    50   Output ~ 0
 OUTLET_5_OFF
 Wire Wire Line
 	4100 5250 4200 5250

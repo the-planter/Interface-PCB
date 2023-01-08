@@ -492,7 +492,7 @@ Text GLabel 8100 4500 0    50   Output ~ 0
 USER_LED_BUZZER
 Wire Wire Line
 	8100 4500 8200 4500
-Text GLabel 8100 4400 0    50   Output ~ 0
+Text GLabel 8100 4400 0    50   BiDi ~ 0
 GPIO19
 Wire Wire Line
 	8100 4400 8200 4400
@@ -504,7 +504,7 @@ Wire Wire Line
 	9550 4000 9400 4000
 Wire Wire Line
 	8100 4000 8200 4000
-Text GLabel 9550 3200 2    50   Output ~ 0
+Text GLabel 9550 3200 2    50   BiDi ~ 0
 GPIO18
 Wire Wire Line
 	9550 3200 9400 3200
@@ -692,7 +692,7 @@ Text GLabel 4300 4500 0    50   Output ~ 0
 USER_LED_BUZZER
 Wire Wire Line
 	4300 4500 4400 4500
-Text GLabel 4300 4400 0    50   Output ~ 0
+Text GLabel 4300 4400 0    50   BiDi ~ 0
 GPIO19
 Wire Wire Line
 	4300 4400 4400 4400
@@ -704,7 +704,7 @@ Wire Wire Line
 	5750 4000 5600 4000
 Wire Wire Line
 	4300 4000 4400 4000
-Text GLabel 5750 3200 2    50   Output ~ 0
+Text GLabel 5750 3200 2    50   BiDi ~ 0
 GPIO18
 Wire Wire Line
 	5750 3200 5600 3200
