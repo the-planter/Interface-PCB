@@ -17,6 +17,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -45,6 +46,7 @@ __Previews
 Project\ Outputs
 Project\ Logs
 Project Outputs for*
+Interface-PCB-backups/
 
 #History
 History
