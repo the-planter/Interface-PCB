@@ -80,8 +80,6 @@ Text GLabel 5250 5600 0    50   Output ~ 0
 OUTLET_3_OFF
 Text GLabel 5250 5500 0    50   Output ~ 0
 OUTLET_2_OFF
-Text GLabel 5250 5800 0    50   Output ~ 0
-OUTLET_5_OFF
 Text GLabel 5250 5700 0    50   Output ~ 0
 OUTLET_4_OFF
 Text GLabel 5250 5400 0    50   Output ~ 0
@@ -98,8 +96,6 @@ Text GLabel 5250 5300 0    50   Output ~ 0
 OUTLET_5_ON
 Text Notes 7450 3400 0    50   ~ 10
 RADIO TRANSMITTER CONTROL
-Text GLabel 8650 4000 0    50   Input ~ 0
-OUTLET_5_ON
 Text GLabel 8650 3900 0    50   Input ~ 0
 OUTLET_4_ON
 Text GLabel 8650 3800 0    50   Input ~ 0
@@ -155,8 +151,6 @@ Wire Wire Line
 	6250 4950 6350 4950
 Wire Wire Line
 	6250 5350 6350 5350
-Text Notes 5350 6500 0    50   ~ 0
-Note: Unused pins connected to GND\nthrough safety resistor\n\nEN is active low\n"Break-before-make"
 Wire Wire Line
 	5250 4900 5350 4900
 Wire Wire Line
@@ -236,7 +230,7 @@ L AA_Custom_Components:R R2
 U 1 1 6373A71E
 P 5100 4400
 F 0 "R2" H 5100 4300 45  0000 C CNN
-F 1 "1k" H 5100 4500 45  0000 C CNN
+F 1 "10k" H 5100 4500 45  0000 C CNN
 F 2 "Resistors:AXIAL-0.3-KIT" H 5100 4550 20  0001 C CNN
 F 3 "" H 5100 4400 60  0001 C CNN
 F 4 " " H 5100 4521 60  0000 C CNN "Field4"
@@ -250,7 +244,7 @@ L AA_Custom_Components:R R1
 U 1 1 6373EC52
 P 4950 6000
 F 0 "R1" H 4950 5900 45  0000 C CNN
-F 1 "1k" H 4950 6100 45  0000 C CNN
+F 1 "10k" H 4950 6100 45  0000 C CNN
 F 2 "Resistors:AXIAL-0.3-KIT" H 4950 6150 20  0001 C CNN
 F 3 "" H 4950 6000 60  0001 C CNN
 F 4 " " H 4950 6121 60  0000 C CNN "Field4"
@@ -299,8 +293,6 @@ F 3 "" H 9750 4300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 4000 8750 4000
-Wire Wire Line
 	8650 3900 8750 3900
 Wire Wire Line
 	8650 3800 8750 3800
@@ -322,19 +314,6 @@ Wire Wire Line
 	8750 4700 8850 4700
 Wire Wire Line
 	8750 4400 8750 4700
-$Comp
-L SparkFun-PowerSymbols:GND2 #GND?
-U 1 1 6381AEB8
-P 8500 4300
-AR Path="/6381AEB8" Ref="#GND?"  Part="1" 
-AR Path="/6373D3AE/6381AEB8" Ref="#GND0102"  Part="1" 
-F 0 "#GND0102" H 8550 4250 45  0001 L BNN
-F 1 "GND2" H 8500 4070 45  0000 C CNN
-F 2 "" H 8500 3975 60  0000 C CNN
-F 3 "" H 8500 4200 60  0001 C CNN
-	1    8500 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 4100 8500 4100
 Wire Wire Line
@@ -346,9 +325,8 @@ Wire Wire Line
 	8500 4200 8500 4300
 Wire Wire Line
 	8750 4300 8500 4300
-Connection ~ 8500 4300
-Text Notes 8450 4850 0    50   ~ 0
-Note: Unused inputs connected to GND
+Text Notes 8400 4900 0    50   ~ 0
+Note: Inputs have internal 1M Ohm Pulldown. \n      Unused inputs connected to GND
 $Comp
 L power:+12V #PWR?
 U 1 1 638228A4
@@ -460,4 +438,32 @@ Wire Notes Line
 	10450 3150 10450 6700
 Wire Notes Line
 	10450 6700 7350 6700
+NoConn ~ 9750 4100
+NoConn ~ 9750 4200
+NoConn ~ 9750 4300
+NoConn ~ 9750 5750
+NoConn ~ 9750 5850
+NoConn ~ 9750 5950
+Text GLabel 5250 5800 0    50   Output ~ 0
+OUTLET_5_OFF
+Wire Wire Line
+	8650 4000 8750 4000
+Connection ~ 8500 4300
+$Comp
+L SparkFun-PowerSymbols:GND2 #GND?
+U 1 1 6381AEB8
+P 8500 4300
+AR Path="/6381AEB8" Ref="#GND?"  Part="1" 
+AR Path="/6373D3AE/6381AEB8" Ref="#GND0102"  Part="1" 
+F 0 "#GND0102" H 8550 4250 45  0001 L BNN
+F 1 "GND2" H 8500 4070 45  0000 C CNN
+F 2 "" H 8500 3975 60  0000 C CNN
+F 3 "" H 8500 4200 60  0001 C CNN
+	1    8500 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 4000 0    50   Input ~ 0
+OUTLET_5_ON
+Text Notes 4650 6650 0    50   ~ 0
+Note: Unused pins connected to GND through pulldown (TODO)\n\nEN is active low. All outputs are disconnected when driven high.\n"Break-before-make"
 $EndSCHEMATC

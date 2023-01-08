@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 "By: Abhinav Agrahari"
 $EndDescr
 $Comp
-L SparkFun-PowerSymbols:GND2 #GND05
-U 1 1 61A1C0EA
-P 3500 800
-F 0 "#GND05" H 3550 750 45  0001 L BNN
-F 1 "GND2" H 3500 570 45  0000 C CNN
-F 2 "" H 3500 475 60  0000 C CNN
-F 3 "" H 3500 700 60  0001 C CNN
-	1    3500 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR02
 U 1 1 61A51827
 P 1700 5900
@@ -35,43 +24,6 @@ F 3 "" H 1700 5900 50  0001 C CNN
 	1    1700 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L SparkFun-PowerSymbols:GND2 #GND04
-U 1 1 61A1B44E
-P 3200 1850
-F 0 "#GND04" H 3250 1800 45  0001 L BNN
-F 1 "GND2" H 3200 1620 45  0000 C CNN
-F 2 "" H 3200 1525 60  0000 C CNN
-F 3 "" H 3200 1750 60  0001 C CNN
-	1    3200 1850
-	1    0    0    -1  
-$EndComp
-Text Notes 850  1950 0    50   ~ 0
-Note: Unused inputs and \noutputs connected to GND
-Text GLabel 1850 1100 0    50   Input ~ 0
-LEVEL_WATER
-Wire Wire Line
-	1850 1100 1950 1100
-Text GLabel 1850 1200 0    50   Input ~ 0
-LEVEL_PH_UP
-Text GLabel 1850 1300 0    50   Input ~ 0
-LEVEL_PH_DOWN
-Text GLabel 1850 1400 0    50   Input ~ 0
-LEVEL_EC
-Wire Wire Line
-	1850 1200 1950 1200
-Wire Wire Line
-	1850 1300 1950 1300
-Wire Wire Line
-	1850 1400 1950 1400
-Text GLabel 3000 1500 2    50   Output ~ 0
-LEVEL_EC_3V3
-Wire Wire Line
-	2950 1100 3250 1100
-Wire Wire Line
-	3250 1100 3250 800 
-Wire Wire Line
-	3250 800  3500 800 
 Wire Notes Line
 	6200 7950 6200 5250
 Wire Notes Line
@@ -117,66 +69,6 @@ Wire Notes Line
 Wire Notes Line
 	1350 2700 1350 4900
 Wire Wire Line
-	2950 1000 2950 750 
-Wire Wire Line
-	1950 1000 1950 750 
-$Comp
-L AA_Custom_Components:SN74LVC245AN IC1
-U 1 1 6378BCA1
-P 1950 1000
-F 0 "IC1" H 2450 1265 50  0000 C CNN
-F 1 "SN74LVC245AN" H 2450 1174 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 2800 1100 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct245" H 2800 1000 50  0001 L CNN
-F 4 "Octal Bus Transceivers With 3-State Outputs" H 2800 900 50  0001 L CNN "Description"
-F 5 "5.08" H 2800 800 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 2800 700 50  0001 L CNN "Manufacturer_Name"
-F 7 "296-8503-5-ND" H 2800 600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1950 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 1800 2950 1900
-Wire Wire Line
-	1950 1700 1950 1800
-Wire Wire Line
-	1950 1900 1950 2050
-Wire Wire Line
-	1950 1900 1950 1800
-Connection ~ 1950 1900
-Connection ~ 1950 1800
-Wire Wire Line
-	2950 1900 2950 2050
-Wire Wire Line
-	2950 2050 1950 2050
-Connection ~ 2950 1900
-$Comp
-L power:+3.3V #PWR06
-U 1 1 6383D4F5
-P 2950 750
-F 0 "#PWR06" H 2950 600 50  0001 C CNN
-F 1 "+3.3V" H 2965 923 50  0000 C CNN
-F 2 "" H 2950 750 50  0001 C CNN
-F 3 "" H 2950 750 50  0001 C CNN
-	1    2950 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR03
-U 1 1 6385FC22
-P 1950 750
-F 0 "#PWR03" H 1950 600 50  0001 C CNN
-F 1 "+3.3V" H 1965 923 50  0000 C CNN
-F 2 "" H 1950 750 50  0001 C CNN
-F 3 "" H 1950 750 50  0001 C CNN
-	1    1950 750 
-	1    0    0    -1  
-$EndComp
-Text GLabel 3000 1300 2    50   Output ~ 0
-LEVEL_PH_UP_3V3
-Text GLabel 3000 1200 2    50   Output ~ 0
-LEVEL_WATER_3V3
-Wire Wire Line
 	2700 6150 2550 6150
 Wire Wire Line
 	2700 6250 2550 6250
@@ -188,8 +80,6 @@ Wire Wire Line
 	2700 6650 2550 6650
 Wire Wire Line
 	2700 6750 2550 6750
-Text GLabel 3000 1400 2    50   Output ~ 0
-LEVEL_PH_DOWN_3V3
 Text GLabel 2700 6650 2    50   Input ~ 0
 EN_DOWN_2
 Text GLabel 2700 6550 2    50   Input ~ 0
@@ -468,18 +358,6 @@ Wire Wire Line
 	2300 4150 2100 4150
 Text Notes 1550 4750 0    50   ~ 0
 Power to Radio Transmitter
-Text Notes 1100 750  0    50   ~ 10
-LEVEL SHIFTING
-Wire Wire Line
-	2950 1200 3000 1200
-Wire Wire Line
-	2950 1300 3000 1300
-Wire Wire Line
-	2950 1400 3000 1400
-Wire Wire Line
-	2950 1500 3000 1500
-Wire Wire Line
-	2950 1600 3000 1600
 Text GLabel 4900 3850 0    50   Input ~ 0
 LEVEL_EC_3V3
 Text GLabel 4900 3650 0    50   Input ~ 0
@@ -657,20 +535,6 @@ Wire Wire Line
 	6200 3950 6350 3950
 Wire Wire Line
 	6200 4450 6350 4450
-Text GLabel 1850 1500 0    50   Input ~ 0
-LEVEL_TRAY_TOP
-Text GLabel 1850 1600 0    50   Input ~ 0
-LEVEL_TRAY_BOTTOM
-Wire Wire Line
-	1850 1500 1950 1500
-Wire Wire Line
-	1850 1600 1950 1600
-Text GLabel 3000 1600 2    50   Output ~ 0
-LEVEL_TRAY_TOP_3V3
-Text GLabel 3000 1700 2    50   Output ~ 0
-LEVEL_TRAY_BOTTOM_3V3
-Wire Wire Line
-	2950 1700 3000 1700
 Text GLabel 4900 4250 0    50   Input ~ 0
 LEVEL_TRAY_BOTTOM_3V3
 Text GLabel 4900 4150 0    50   Input ~ 0
@@ -705,7 +569,7 @@ Wire Notes Line
 	3600 5150 9800 5150
 Wire Notes Line
 	3600 2200 9800 2200
-Text Notes 5200 700  0    50   ~ 10
+Text Notes 6350 5350 0    50   ~ 10
 ENVIRONMENTAL SENSORS
 $Sheet
 S 7350 2800 650  1050
@@ -718,31 +582,42 @@ F4 "SEL_1" I L 7350 3450 50
 F5 "SEL_2" I L 7350 3550 50 
 F6 "SEL_3" I L 7350 3750 50 
 $EndSheet
+Wire Notes Line
+	6300 6700 8450 6700
+Wire Notes Line
+	8450 6700 8450 5200
+Wire Notes Line
+	8450 5200 6300 5200
+Wire Notes Line
+	6300 5200 6300 6700
+Wire Notes Line
+	3600 2450 4600 2450
+Wire Notes Line
+	4600 2450 4600 2200
+Text GLabel 4900 4550 0    50   Output ~ 0
+USER_LED_BUZZER
 Wire Wire Line
-	2950 1800 3200 1800
+	4900 4550 5000 4550
+Text GLabel 4900 4450 0    50   Output ~ 0
+GPIO19
 Wire Wire Line
-	3200 1800 3200 1850
-Connection ~ 2950 1800
+	4900 4450 5000 4450
+Text GLabel 6350 4050 2    50   BiDi ~ 0
+ID_SC_UNUSED
+Text GLabel 4900 4050 0    50   BiDi ~ 0
+ID_SD_UNUSED
+Wire Wire Line
+	6350 4050 6200 4050
+Wire Wire Line
+	4900 4050 5000 4050
+Text GLabel 6350 3250 2    50   Output ~ 0
+GPIO18
+Wire Wire Line
+	6350 3250 6200 3250
 $Sheet
-S 5450 1050 1550 700 
+S 6600 5700 1550 700 
 U 6375997B
 F0 "Environment Sensors" 79
 F1 "EnvironmentSensors.sch" 79
 $EndSheet
-Wire Notes Line
-	5150 2050 7300 2050
-Wire Notes Line
-	7300 2050 7300 550 
-Wire Notes Line
-	7300 550  5150 550 
-Wire Notes Line
-	5150 550  5150 2050
-Wire Notes Line
-	700  500  700  2150
-Wire Notes Line
-	700  2150 4050 2150
-Wire Notes Line
-	4050 2150 4050 500 
-Wire Notes Line
-	4050 500  700  500 
 $EndSCHEMATC
