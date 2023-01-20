@@ -20,7 +20,7 @@
       (property "Value" "BARREL_JACK_PAD" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 1.27 -1.016 0)
+      (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 1.27 -1.016 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 1.27 -1.016 0)
@@ -186,10 +186,10 @@
       (property "Value" "PERISTALTIC_PUMP" (id 1) (at 0 -6.35 0)
         (effects (font (size 1.143 1.143)) (justify bottom))
       )
-      (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 6.35 11.43 0)
+      (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 6.35 11.43 0)
         (effects (font (size 0.508 0.508)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 6.35 0 0)
+      (property "Datasheet" "https://www.amazon.ca/Gikfun-Peristaltic-Connector-Aquarium-Analytic/dp/B01IUVHB8E/" (id 3) (at 6.35 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PERISTALTIC_PUMP_0_0"
@@ -208,13 +208,13 @@
         )
       )
       (symbol "PERISTALTIC_PUMP_1_1"
-        (pin power_in line (at 7.62 -2.54 180) (length 2.54)
-          (name "M2" (effects (font (size 1.016 1.016))))
-          (number "6" (effects (font (size 1.016 1.016))))
-        )
         (pin power_in line (at 7.62 5.08 180) (length 2.54)
           (name "M1" (effects (font (size 1.016 1.016))))
-          (number "7" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin power_in line (at 7.62 -2.54 180) (length 2.54)
+          (name "M2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
         )
       )
     )
@@ -3422,14 +3422,14 @@
     (property "Value" "PERISTALTIC_PUMP" (id 1) (at 25.6032 160.782 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 30.48 157.48 0)
+    (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 30.48 157.48 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 30.48 168.91 0)
+    (property "Datasheet" "https://www.amazon.ca/Gikfun-Peristaltic-Connector-Aquarium-Analytic/dp/B01IUVHB8E/" (id 3) (at 30.48 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid 52e7fd43-c612-4b77-bc0c-6984a0f5390a))
-    (pin "7" (uuid 31606e64-d70c-484d-aa13-8121440fd5e3))
+    (pin "1" (uuid a69e905d-9923-45ee-a1e3-25d66be7c0b7))
+    (pin "2" (uuid 346fb6cc-644e-4ec0-8583-b6d42cd533b8))
   )
 
   (symbol (lib_id "power:+3.3V") (at 43.18 156.21 0) (unit 1)
@@ -3457,14 +3457,14 @@
     (property "Value" "PERISTALTIC_PUMP" (id 1) (at 25.6032 179.832 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 30.48 176.53 0)
+    (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 30.48 176.53 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 30.48 187.96 0)
+    (property "Datasheet" "https://www.amazon.ca/Gikfun-Peristaltic-Connector-Aquarium-Analytic/dp/B01IUVHB8E/" (id 3) (at 30.48 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid cd2e5225-5247-4632-9c13-2a6002e60f81))
-    (pin "7" (uuid 7537aea0-b388-442a-aef3-c0c533ab4f03))
+    (pin "1" (uuid 87750a34-f8c5-4cc5-8681-3a07d35ea9d1))
+    (pin "2" (uuid d1697ac2-a904-4693-9266-b2cd27115032))
   )
 
   (symbol (lib_id "power:+3.3V") (at 86.36 162.56 0) (unit 1)
@@ -3537,14 +3537,14 @@
     (property "Value" "PERISTALTIC_PUMP" (id 1) (at 100.5332 160.782 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 105.41 157.48 0)
+    (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 105.41 157.48 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 105.41 168.91 0)
+    (property "Datasheet" "https://www.amazon.ca/Gikfun-Peristaltic-Connector-Aquarium-Analytic/dp/B01IUVHB8E/" (id 3) (at 105.41 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid de09fd1a-26a8-4769-af3f-9cd5e161dd50))
-    (pin "7" (uuid f1754aad-ec19-42a0-abcb-4913d5091802))
+    (pin "1" (uuid fc8c9a2d-ce8a-48e3-9e4f-fe25f9c5efac))
+    (pin "2" (uuid 03127138-1dab-4dfc-8483-d7adf9cb15cb))
   )
 
   (symbol (lib_id "power:+3.3V") (at 109.22 156.21 0) (unit 1)
@@ -3584,7 +3584,7 @@
     (uuid 00000000-0000-0000-0000-000063af14b6)
     (property "Reference" "J1" (id 0) (at 30.6578 60.325 0))
     (property "Value" "BARREL_JACK_PAD" (id 1) (at 30.6578 62.6364 0))
-    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 30.48 69.596 0)
+    (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 30.48 69.596 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 30.48 69.596 0)
@@ -3615,7 +3615,7 @@
     (uuid 00000000-0000-0000-0000-000063b7d3d0)
     (property "Reference" "J2" (id 0) (at 31.9278 86.995 0))
     (property "Value" "BARREL_JACK_PAD" (id 1) (at 31.9278 89.3064 0))
-    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (id 2) (at 31.75 96.266 0)
+    (property "Footprint" "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm" (id 2) (at 31.75 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 31.75 96.266 0)
@@ -4410,10 +4410,10 @@
       (reference "IC3") (unit 1) (value "TBD62783A") (footprint "Package_DIP:DIP-18_W7.62mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-000063af14b6"
-      (reference "J1") (unit 1) (value "BARREL_JACK_PAD") (footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm")
+      (reference "J1") (unit 1) (value "BARREL_JACK_PAD") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063b7d3d0"
-      (reference "J2") (unit 1) (value "BARREL_JACK_PAD") (footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm")
+      (reference "J2") (unit 1) (value "BARREL_JACK_PAD") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063ceadab"
       (reference "J3") (unit 1) (value "GPIO_DEBUG_HEADER") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical")
@@ -4455,121 +4455,121 @@
       (reference "J15") (unit 1) (value "CONN_05JST") (footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000638d58ae"
-      (reference "M1") (unit 1) (value "PERISTALTIC_PUMP") (footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm")
+      (reference "M1") (unit 1) (value "PERISTALTIC_PUMP") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-0000639395b5"
-      (reference "M2") (unit 1) (value "PERISTALTIC_PUMP") (footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm")
+      (reference "M2") (unit 1) (value "PERISTALTIC_PUMP") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063a48f2d"
-      (reference "M3") (unit 1) (value "PERISTALTIC_PUMP") (footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm")
+      (reference "M3") (unit 1) (value "PERISTALTIC_PUMP") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063bd2f18"
-      (reference "R1") (unit 1) (value "680") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R1") (unit 1) (value "680") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063c002cc"
-      (reference "R2") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R2") (unit 1) (value "100") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063be2f4b"
-      (reference "R3") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R3") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-00006376391f"
-      (reference "R4") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R4") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063763912"
-      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R5") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/f5d6dedc-fb5b-4f5e-8816-5e6893a83b0b"
-      (reference "R6") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R6") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/1c2b0d0f-3b3c-437a-9141-e272f8cdcb46"
-      (reference "R7") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R7") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/b274904b-6204-48ec-aae2-7f3b06679e66"
-      (reference "R8") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R8") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00d8fc40-107c-4f34-be46-cb19297db83b"
-      (reference "R9") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R9") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/3dc88477-e3c6-4460-821b-c49f03e0bcef"
-      (reference "R10") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R10") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/368830b5-e466-42a9-9d1b-72fc5aae88af"
-      (reference "R11") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R11") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/4dc8028f-ae6a-449f-b4d9-7b02b2eef062"
-      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R12") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/39293675-d0dd-463b-8a8d-fe7fb3960aa0"
-      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R13") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/cdd4048e-ff20-4eaf-b05c-37899eb9c95d"
-      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R14") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/2e95e113-4d61-4fff-941b-f0b3eaef2922"
-      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R15") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/0ce51793-c2c1-477d-bf69-bd3664e49739"
-      (reference "R16") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R16") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/27754c9b-9f43-42c6-9c74-c3eae95e91db"
-      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R17") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/3480ae37-ecc6-4a4b-8daa-70c079e6e3e4"
-      (reference "R18") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R18") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/95971c2e-0142-4570-9f7d-83be494d4300"
-      (reference "R19") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R19") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/3ca43834-87f9-41c4-93e9-2e3047088c32"
-      (reference "R20") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R20") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/f2e51106-5013-47a8-a060-b12f64f10520"
-      (reference "R21") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R21") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/f6b6d095-c97d-4ef9-a3d2-21b218970f12"
-      (reference "R22") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R22") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/e2ef4840-187d-4fae-a522-c7e5035c3bb9"
-      (reference "R23") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R23") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/1dac25c9-c837-4bd4-aec2-9f4191fd6b89"
-      (reference "R24") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R24") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/2b65850b-45cf-4527-8d83-33ac6ab4ce26"
-      (reference "R25") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R25") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/b47c4517-449c-4f9f-ae62-99b38af841d3"
-      (reference "R26") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R26") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/52a586bb-2b91-404a-a088-dfafb9e95f8e"
-      (reference "R27") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R27") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/623e802f-a925-4434-8a77-c99f007adf0f"
-      (reference "TP1") (unit 1) (value "PAD") (footprint "")
+      (reference "TP1") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/da3b3a77-8382-4b6f-9d68-cf08b05a6928"
-      (reference "TP2") (unit 1) (value "PAD") (footprint "")
+      (reference "TP2") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/1e067be7-59ce-4095-bfa3-82420a796eaa"
-      (reference "TP3") (unit 1) (value "PAD") (footprint "")
+      (reference "TP3") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/d529bff9-c493-449b-8a28-27799ee429d4"
-      (reference "TP4") (unit 1) (value "PAD") (footprint "")
+      (reference "TP4") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/ea4d7935-9ed5-48aa-8f81-500561699f44"
-      (reference "TP5") (unit 1) (value "PAD") (footprint "")
+      (reference "TP5") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/61f95420-5293-4a29-beba-c7dd2d58131d"
-      (reference "TP6") (unit 1) (value "PAD") (footprint "")
+      (reference "TP6") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/e41a1904-2ac5-4314-82f5-70a06d2dd5bf"
-      (reference "TP7") (unit 1) (value "GND_PAD") (footprint "")
+      (reference "TP7") (unit 1) (value "GND_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/c7a46204-2a09-4784-9a4e-a8073a8a63a7"
-      (reference "TP8") (unit 1) (value "5V_PAD") (footprint "")
+      (reference "TP8") (unit 1) (value "5V_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/f529f8a0-967d-4416-9a85-70d2ed308c62"
-      (reference "TP9") (unit 1) (value "3.3V_PAD") (footprint "")
+      (reference "TP9") (unit 1) (value "3.3V_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-0000638d4504"
       (reference "U1") (unit 1) (value "TB6612FNG_BREAKOUT") (footprint "digikey-footprints:DIP-16_W7.62mm")
