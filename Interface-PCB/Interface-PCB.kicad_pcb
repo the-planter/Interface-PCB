@@ -39,10 +39,11 @@
       (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
-      (copper_finish "None")
+      (copper_finish "HAL SnPb")
       (dielectric_constraints no)
     )
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.05)
+    (solder_mask_min_width 0.2)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -81,5 +82,101 @@
   (net 0 "")
 
   (gr_rect (start 100.66 49.86) (end 200.66 149.86) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 9272ccd5-e950-4f99-baec-47da7f19129b))
+  (gr_text "Min hole diameter: " (at 166.221429 29) (layer "Cmts.User") (tstamp 14e5ac74-9e6a-429c-a85f-3f85c24f6634)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "" (at 191.064286 24.785) (layer "Cmts.User") (tstamp 20a5fa03-1925-401c-ab1e-0afe600eece7)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "BOARD CHARACTERISTICS" (at 96 15) (layer "Cmts.User") (tstamp 210b172c-b965-4a60-99f4-39f3cf0b0a90)
+    (effects (font (size 2 2) (thickness 0.4)) (justify left top))
+  )
+  (gr_text "2" (at 129.307143 20.57) (layer "Cmts.User") (tstamp 23d6215c-5ccd-448a-9dca-fb24b263b819)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Edge card connectors: " (at 96.75 41.645) (layer "Cmts.User") (tstamp 2501f8af-64a4-4048-910a-af6739d92186)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 129.307143 41.645) (layer "Cmts.User") (tstamp 2887f18d-0aa0-4560-89a5-469e7311c504)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 129.307143 37.43) (layer "Cmts.User") (tstamp 2dc8128f-408c-4d56-91b5-3b4d4c6dd33f)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 191.064286 33.215) (layer "Cmts.User") (tstamp 32ad7fbe-e026-4d57-9f6b-f4af30c894d9)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Min track/spacing: " (at 96.75 29) (layer "Cmts.User") (tstamp 4833e46b-f647-4405-8958-8388c09e9ad1)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "0.1270 mm / 0.1270 mm" (at 129.307143 29) (layer "Cmts.User") (tstamp 4b49296e-e16b-4f09-89ae-9e00f97c6e61)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "HAL SnPb" (at 129.307143 33.215) (layer "Cmts.User") (tstamp 524a8897-4b26-49dd-b508-9c5b2f671e31)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Board overall dimensions: " (at 96.75 24.785) (layer "Cmts.User") (tstamp 623f0fd1-05e3-4aed-b4a4-842ebc101656)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Impedance Control: " (at 166.221429 33.215) (layer "Cmts.User") (tstamp 72c8bab7-3236-4d5e-a06f-9f8b3d4cd3c8)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Copper Layer Count: " (at 96.75 20.57) (layer "Cmts.User") (tstamp 75b6e061-3edd-496d-8819-9872e3fcd769)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "100.0500 mm x 100.0500 mm" (at 129.307143 24.785) (layer "Cmts.User") (tstamp 7ab43dd5-158c-4fb4-89fd-0268b2095c18)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "0.2000 mm" (at 191.064286 29) (layer "Cmts.User") (tstamp 7db1c116-53cc-43a8-9a9d-fcc8da2afbb1)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Board Thickness: " (at 166.221429 20.57) (layer "Cmts.User") (tstamp 7ddaea75-0e14-403a-984d-c1eba0e6698b)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Copper Finish: " (at 96.75 33.215) (layer "Cmts.User") (tstamp 931e27aa-b13d-4318-a4da-bc41de9026c2)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "" (at 166.221429 24.785) (layer "Cmts.User") (tstamp af6768f8-3c5e-4c2e-ad12-97c0640b49b0)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "1.6000 mm" (at 191.064286 20.57) (layer "Cmts.User") (tstamp bdc2dce2-a873-4024-ba32-25e14d4c7d3a)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "No" (at 191.064286 37.43) (layer "Cmts.User") (tstamp bf3b8360-7021-4a05-9a17-ac671301ba24)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Castellated pads: " (at 96.75 37.43) (layer "Cmts.User") (tstamp fa3e4d8c-7c0c-49b2-8f34-dbc76c0c364e)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
+  (gr_text "Plated Board Edge: " (at 166.221429 37.43) (layer "Cmts.User") (tstamp febb7d9c-f8af-428a-b455-1415daa5c3f8)
+    (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
+  )
 
+  (group "group-boardCharacteristics" (id c0acfb15-02d9-42a3-a500-96274a64592b)
+    (members
+      14e5ac74-9e6a-429c-a85f-3f85c24f6634
+      20a5fa03-1925-401c-ab1e-0afe600eece7
+      210b172c-b965-4a60-99f4-39f3cf0b0a90
+      23d6215c-5ccd-448a-9dca-fb24b263b819
+      2501f8af-64a4-4048-910a-af6739d92186
+      2887f18d-0aa0-4560-89a5-469e7311c504
+      2dc8128f-408c-4d56-91b5-3b4d4c6dd33f
+      32ad7fbe-e026-4d57-9f6b-f4af30c894d9
+      4833e46b-f647-4405-8958-8388c09e9ad1
+      4b49296e-e16b-4f09-89ae-9e00f97c6e61
+      524a8897-4b26-49dd-b508-9c5b2f671e31
+      623f0fd1-05e3-4aed-b4a4-842ebc101656
+      72c8bab7-3236-4d5e-a06f-9f8b3d4cd3c8
+      75b6e061-3edd-496d-8819-9872e3fcd769
+      7ab43dd5-158c-4fb4-89fd-0268b2095c18
+      7db1c116-53cc-43a8-9a9d-fcc8da2afbb1
+      7ddaea75-0e14-403a-984d-c1eba0e6698b
+      931e27aa-b13d-4318-a4da-bc41de9026c2
+      af6768f8-3c5e-4c2e-ad12-97c0640b49b0
+      bdc2dce2-a873-4024-ba32-25e14d4c7d3a
+      bf3b8360-7021-4a05-9a17-ac671301ba24
+      fa3e4d8c-7c0c-49b2-8f34-dbc76c0c364e
+      febb7d9c-f8af-428a-b455-1415daa5c3f8
+    )
+  )
 )
