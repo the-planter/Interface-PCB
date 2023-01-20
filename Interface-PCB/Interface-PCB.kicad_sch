@@ -225,7 +225,7 @@
       (property "Value" "RASPBERRYPI-40-PIN-GPIO" (id 1) (at -13.97 -29.21 0)
         (effects (font (size 1.143 1.143)) (justify left bottom))
       )
-      (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical" (id 2) (at -1.27 29.21 0)
+      (property "Footprint" "AA_Custom_Components:RASPBERRYPI-40-PIN-GPIO-2x20_P2.54mm_Vertical" (id 2) (at -1.27 29.21 0)
         (effects (font (size 0.508 0.508)) hide)
       )
       (property "Datasheet" "" (id 3) (at -17.78 -8.89 0)
@@ -3308,7 +3308,7 @@
     (property "Value" "RASPBERRYPI_GPIO_CONN_HEADER" (id 1) (at 223.52 64.262 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical" (id 2) (at 223.52 63.5 0)
+    (property "Footprint" "AA_Custom_Components:RASPBERRYPI-40-PIN-GPIO-2x20_P2.54mm_Vertical" (id 2) (at 223.52 63.5 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (id 3) (at 207.01 101.6 0)
@@ -3771,7 +3771,7 @@
     (property "Value" "GPIO_DEBUG_HEADER" (id 1) (at 127 64.262 0)
       (effects (font (size 1.143 1.143)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical" (id 2) (at 127 63.5 0)
+    (property "Footprint" "AA_Custom_Components:RASPBERRYPI-40-PIN-GPIO-2x20_P2.54mm_Vertical" (id 2) (at 127 63.5 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (id 3) (at 110.49 101.6 0)
@@ -4380,7 +4380,7 @@
       (reference "#PWR038") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063bf8b85"
-      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm")
+      (reference "BZ1") (unit 1) (value "Buzzer") (footprint "AA_Custom_Components:Buzzer_Generic_D12.2mm_H6.5mm")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063bb536f"
       (reference "C1") (unit 1) (value "100nF") (footprint "AA_Custom_Components:C_Ceramic_Disc_D4.3mm_W1.9mm_P5.08mm")
@@ -4437,10 +4437,10 @@
       (reference "J2") (unit 1) (value "BARREL_JACK_PAD") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
     )
     (path "/00000000-0000-0000-0000-000063ceadab"
-      (reference "J3") (unit 1) (value "GPIO_DEBUG_HEADER") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "GPIO_DEBUG_HEADER") (footprint "AA_Custom_Components:RASPBERRYPI-40-PIN-GPIO-2x20_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000637562be"
-      (reference "J4") (unit 1) (value "RASPBERRYPI_GPIO_CONN_HEADER") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "RASPBERRYPI_GPIO_CONN_HEADER") (footprint "AA_Custom_Components:RASPBERRYPI-40-PIN-GPIO-2x20_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006382f956"
       (reference "J5") (unit 1) (value "I2C_HEADER") (footprint "AA_Custom_Components:JST_XH_1x04_P2.54mm_Vertical")
