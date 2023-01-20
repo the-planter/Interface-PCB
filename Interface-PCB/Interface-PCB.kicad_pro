@@ -385,6 +385,12 @@
           "+12V",
           "+3V3",
           "+5V",
+          "/EC 1",
+          "/EC 2",
+          "/pH Down 1",
+          "/pH Down 2",
+          "/pH Up 1",
+          "/pH Up 2",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
