@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -412,8 +412,8 @@
       "idf": "",
       "netlist": "Interface-PCB.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "exports/Interface-PCB.step",
+      "vrml": "exports/Interface-PCB.wrl"
     },
     "page_layout_descr_file": ""
   },
