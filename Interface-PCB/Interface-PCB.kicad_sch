@@ -367,7 +367,7 @@
         )
       )
     )
-    (symbol "AA_Custom_Components:TB6612FNG_BREAKOUT" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "AA_Custom_Components:TB6612FNG_BREAKOUT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -6.35 12.7 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )

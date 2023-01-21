@@ -140,7 +140,7 @@
         )
       )
     )
-    (symbol "AA_Custom_Components:CONN_05JST" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "AA_Custom_Components:CONN_05JST" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -5.08 12.7 0)
         (effects (font (size 1.143 1.143)) (justify left bottom))
       )
