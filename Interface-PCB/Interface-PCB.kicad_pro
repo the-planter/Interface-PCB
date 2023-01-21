@@ -412,8 +412,8 @@
       "idf": "",
       "netlist": "Interface-PCB.net",
       "specctra_dsn": "",
-      "step": "exports/Interface-PCB.step",
-      "vrml": "exports/Interface-PCB.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
