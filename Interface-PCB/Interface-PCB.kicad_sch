@@ -4548,7 +4548,7 @@
       (reference "R1") (unit 1) (value "680") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063c002cc"
-      (reference "R2") (unit 1) (value "100") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R2") (unit 1) (value "22") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063be2f4b"
       (reference "R3") (unit 1) (value "220") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
