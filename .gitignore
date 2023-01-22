@@ -52,8 +52,9 @@ Interface-PCB-backups/
 History
 
 #Exports, but not manual ones
-exports/*
-!exports/manual
+#exports/*
+*.step
+#!exports/manual
 
 #Python stuff
 scripts/__pycache__/
