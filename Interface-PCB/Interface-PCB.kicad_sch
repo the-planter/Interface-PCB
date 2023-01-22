@@ -507,7 +507,7 @@
       (property "Value" "PLANTER_LOGO_8mm" (id 1) (at 0 -11.8823 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "Interface-PCB:PLANTER_LOGO_30MM_SILKSCREEN" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
@@ -4009,13 +4009,13 @@
   (symbol (lib_id "Interface-PCB:PLANTER_LOGO_8mm") (at 247.65 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6ae23f34-90ad-41bf-a46e-855f1c65bb29)
-    (property "Reference" "#G1" (id 0) (at 247.65 17.3277 0)
+    (property "Reference" "G1" (id 0) (at 247.65 17.3277 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PLANTER_LOGO_8mm" (id 1) (at 247.65 41.0923 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 247.65 29.21 0)
+    (property "Footprint" "Interface-PCB:PLANTER_LOGO_30MM_SILKSCREEN" (id 2) (at 247.65 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 247.65 29.21 0)
@@ -4237,9 +4237,6 @@
     )
     (path "/00000000-0000-0000-0000-000063d83ce6"
       (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/6ae23f34-90ad-41bf-a46e-855f1c65bb29"
-      (reference "#G1") (unit 1) (value "PLANTER_LOGO_8mm") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063fcc8a0"
       (reference "#GND01") (unit 1) (value "GND") (footprint "XXX-00000")
@@ -4472,6 +4469,9 @@
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063bcaddf"
       (reference "D3") (unit 1) (value "5V_ON") (footprint "AA_Custom_Components:LED_SS_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
+    (path "/6ae23f34-90ad-41bf-a46e-855f1c65bb29"
+      (reference "G1") (unit 1) (value "PLANTER_LOGO_8mm") (footprint "Interface-PCB:PLANTER_LOGO_30MM_SILKSCREEN")
+    )
     (path "/00000000-0000-0000-0000-000063bd3cac"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
     )
@@ -4543,6 +4543,15 @@
     )
     (path "/00000000-0000-0000-0000-000063a48f2d"
       (reference "M3") (unit 1) (value "PERISTALTIC_PUMP") (footprint "AA_Custom_Components:PowerPad_Pair_5.0x5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006375997b/179f68f0-a496-4478-807a-8a228ac1fdea"
+      (reference "N1") (unit 1) (value "CENTER_POS") (footprint "AA_Custom_Components:Polarity_Center_Positive_7.5mm_SilkScreen")
+    )
+    (path "/00000000-0000-0000-0000-00006375997b/2c5f3129-e0cd-43fe-afad-b677bf741a53"
+      (reference "N2") (unit 1) (value "CENTER_POS") (footprint "AA_Custom_Components:Polarity_Center_Positive_7.5mm_SilkScreen")
+    )
+    (path "/00000000-0000-0000-0000-00006375997b/7412de6c-86c2-4352-a654-eb3ac80aac75"
+      (reference "N3") (unit 1) (value "KiCad") (footprint "Symbol:KiCad-Logo2_8mm_SilkScreen")
     )
     (path "/00000000-0000-0000-0000-00006375997b/00000000-0000-0000-0000-000063bd2f18"
       (reference "R1") (unit 1) (value "680") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")

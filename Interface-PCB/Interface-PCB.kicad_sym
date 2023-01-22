@@ -6,7 +6,7 @@
     (property "Value" "PLANTER_LOGO_8mm" (id 1) (at 0 -11.8823 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "Interface-PCB:PLANTER_LOGO_30MM_SILKSCREEN" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
