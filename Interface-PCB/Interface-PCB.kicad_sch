@@ -4642,24 +4642,6 @@
     (path "/949f8304-cb62-4014-8dc3-9146e947ad99"
       (reference "TP3") (unit 1) (value "3.3V_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
     )
-    (path "/00000000-0000-0000-0000-00006375997b/623e802f-a925-4434-8a77-c99f007adf0f"
-      (reference "TP4") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006375997b/da3b3a77-8382-4b6f-9d68-cf08b05a6928"
-      (reference "TP5") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006375997b/1e067be7-59ce-4095-bfa3-82420a796eaa"
-      (reference "TP6") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006375997b/d529bff9-c493-449b-8a28-27799ee429d4"
-      (reference "TP7") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006375997b/ea4d7935-9ed5-48aa-8f81-500561699f44"
-      (reference "TP8") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00006375997b/61f95420-5293-4a29-beba-c7dd2d58131d"
-      (reference "TP9") (unit 1) (value "PAD") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
     (path "/d5bf4c60-be3e-4924-9255-2c110c207ea7"
       (reference "TP10") (unit 1) (value "GND_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
     )
