@@ -392,8 +392,10 @@
         "name": "Power",
         "nets": [
           "+12V",
+          "+3.3VP",
           "+3V3",
           "+5V",
+          "+5VD",
           "/EC 1",
           "/EC 2",
           "/pH Down 1",
@@ -471,11 +473,15 @@
     ],
     [
       "00000000-0000-0000-0000-00006375997b",
-      "Sensors and Indicators"
+      "Sensors"
     ],
     [
       "00000000-0000-0000-0000-00006373d3ae",
       "Remote Transistor SubSystem"
+    ],
+    [
+      "16013c55-b1c0-4c6e-a973-4769b98837de",
+      "Power Distribution and Indicators"
     ]
   ],
   "text_variables": {}
