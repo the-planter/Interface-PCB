@@ -6,8 +6,8 @@
 
   (title_block
     (title "Interface PCB")
-    (date "2023-01-21")
-    (rev "1.0")
+    (date "2023-02-21")
+    (rev "1.1")
     (company "Team 48 - Planter")
     (comment 4 "By: Abhinav Agrahari")
   )
@@ -4165,6 +4165,9 @@
     (path "/16013c55-b1c0-4c6e-a973-4769b98837de/a34577a0-f0c1-49a3-a159-090f3a5cd160"
       (reference "#GND036") (unit 1) (value "GND") (footprint "XXX-00000")
     )
+    (path "/00000000-0000-0000-0000-00006373d3ae/104fdd40-930b-4a9a-99fd-ac42b7febc01"
+      (reference "#GND037") (unit 1) (value "GND") (footprint "XXX-00000")
+    )
     (path "/da3f267d-bf77-4053-a098-3cb6ee446a74"
       (reference "#PWR01") (unit 1) (value "+5VD") (footprint "")
     )
@@ -4284,6 +4287,9 @@
     )
     (path "/712b08a6-4bdb-4e36-9c33-05f07f279a62"
       (reference "#PWR040") (unit 1) (value "+5VD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/29353d86-04d6-48ac-8533-0607bc5b5a0f"
+      (reference "#PWR041") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/2dc10835-02bc-4b3d-b534-5da934b215b1"
       (reference "#PWR0103") (unit 1) (value "+5VD") (footprint "")
@@ -4482,6 +4488,21 @@
     )
     (path "/00000000-0000-0000-0000-00006373d3ae/52a586bb-2b91-404a-a088-dfafb9e95f8e"
       (reference "R26") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/95c03451-a62a-470c-af5b-1b852d96bacc"
+      (reference "R27") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/cbf52518-1d70-480d-a3a5-e928c4d4ef64"
+      (reference "R28") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/96322505-8d60-401d-beb3-c04776955044"
+      (reference "R29") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/c3803199-b1f9-4e23-8d35-f31e21dae0b1"
+      (reference "R30") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-00006373d3ae/fd5eee24-574c-4bdc-b135-055231e872e8"
+      (reference "R31") (unit 1) (value "10k") (footprint "AA_Custom_Components:R_SS_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/16013c55-b1c0-4c6e-a973-4769b98837de/bebbbb2f-73a9-4aa8-bd04-0f8dc80616fe"
       (reference "TP1") (unit 1) (value "GND_PAD") (footprint "AA_Custom_Components:TestPoint_Pad_5.0x5.0mm")
