@@ -4,6 +4,8 @@ Interface PCB for an automated hydroponics system, created using KiCad 6.0.
 
 This PCB enables control and interfacing a Raspberry with several liquid level sensors, 12V peristaltic pumps, a few temperature sensors, and remote controllable outlets.
 
+This PCB acts as a carrier board for various off-the-shelf breakout boards. It enables noise-free signals, painless testing, and robust interfacing of the liquid level sensors, peristaltic pumps, air & water temperature sensors, and electrical outlets. Standardized connector types are used to guarantee secure connections; connector types are differentiated by their purpose and voltage level, to ensure no mismatch between components and voltage levels occur. The use of breakout boards alleviates the difficulties in procuring discrete Integrated Circuits (ICs) during the ongoing chip shortage. 
+
 ## Manufactured board
 ![Assembled PCB](./Interface-PCB/images/PXL_20230214_154127185.jpg)
 | Left View | Right View |
@@ -19,6 +21,7 @@ Hooked up to all sensors:
 ![PCB Render](./Interface-PCB/images/09_Interface-PCB_render.png)
 
 ![PCB Render angled](./Interface-PCB/images/10_Interface-PCB_render_angled.png)
+![PCB Render angled](./Interface-PCB/images/11_Interface-PCB_render_angled_transparent.png)
 
 ![PCB Bare](./Interface-PCB/images/08_Interface-PCB_bare.png)
 
